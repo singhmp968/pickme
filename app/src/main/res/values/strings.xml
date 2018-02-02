@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pickme</string>
+    <string name="travel">Travel</string>
+    <string name="lift">Lift</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8BBD0"
+    tools:context="com.sportsme.saiganesh.pickme.ChoosemodeActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="PickMe"
+        android:textColor="#212121"
+        android:textSize="60dp" />
+
+    <LinearLayout
+        android:id="@+id/choosemenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/travel"
+            android:textColor="@color/text_icon"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:textColor="@color/text_icon"
+            android:textSize="30sp"
+            tools:text="@string/lift" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/choosemenu"
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/aclonica"
+        android:text="Earn by Helping"
+        android:textColor="@color/sacondarytext"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choosemenu"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60sp"
+        android:fontFamily="@font/bevan"
+        android:text="Save petrol"
+        android:textSize="20sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/bevan"
+        android:text='"Conserve Future"'
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
