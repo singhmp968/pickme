@@ -36,7 +36,7 @@
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="33dp"
-        android:text="Button" />
+        android:text="Signup" />
 
     <EditText
         android:id="@+id/email"

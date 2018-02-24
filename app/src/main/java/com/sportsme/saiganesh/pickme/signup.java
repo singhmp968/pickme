@@ -1,5 +1,6 @@
 package com.sportsme.saiganesh.pickme;
 
+        import android.content.Intent;
         import android.content.SharedPreferences;
         import android.support.annotation.NonNull;
         import android.support.v7.app.AppCompatActivity;
@@ -39,6 +40,7 @@ public class signup extends AppCompatActivity {
                         editor.putString("COUNT","YES");
                         Toast.makeText(signup.this, "user Created", Toast.LENGTH_SHORT).show();
                         editor.apply();
+                        Intent login = new Intent(signup.this,LoginActivity.class);
                     }
                 });
             }
