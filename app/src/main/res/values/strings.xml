@@ -2,4 +2,5 @@
     <string name="app_name">Pickme</string>
     <string name="travel">Travel</string>
     <string name="lift">Lift</string>
+    <string name="title_activity_signup">Signup</string>
 </resources>

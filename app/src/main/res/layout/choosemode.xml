@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:fontFamily="cursive"
+        android:onClick="signinFunction"
         android:text="PickMe"
         android:textColor="#212121"
         android:textSize="60dp" />
@@ -46,15 +47,15 @@
             android:gravity="center"
             android:textColor="@color/text_icon"
             android:textSize="30sp"
-            tools:text="@string/lift" />
+            tools:text="@string/lift"
+            android:text="@string/lift"/>
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/choosemenu"
         android:layout_below="@id/title"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
         android:fontFamily="@font/aclonica"
         android:text="Earn by Helping"
         android:textColor="@color/sacondarytext"
@@ -78,7 +79,7 @@
         android:layout_below="@id/save"
         android:layout_centerInParent="true"
         android:fontFamily="@font/bevan"
-        android:text='"Conserve Future"'
+        android:text="Conserve Future"
         android:textSize="20sp" />
 
 
