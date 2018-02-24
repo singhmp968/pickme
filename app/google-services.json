@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "798949168622",
+    "firebase_url": "https://pickme-d7833.firebaseio.com",
+    "project_id": "pickme-d7833",
+    "storage_bucket": "pickme-d7833.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798949168622:android:c901377861701f1f",
+        "android_client_info": {
+          "package_name": "com.sportsme.saiganesh.pickme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798949168622-bsst27aa28e7rnfhlhnb2fsql7t14203.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sportsme.saiganesh.pickme",
+            "certificate_hash": "0ffb8e62d28ecb14c166de0876b07398f567d885"
+          }
+        },
+        {
+          "client_id": "798949168622-amsuft96b0dbmcjmit4qjfmbhulh6i3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWvVyi_WW0MyIIzv-Q0_aRthMs9TxJg5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798949168622-amsuft96b0dbmcjmit4qjfmbhulh6i3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
